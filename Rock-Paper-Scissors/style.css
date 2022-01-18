@@ -1,0 +1,54 @@
+.container{
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.rounder-header{
+    text-align: center;
+}
+
+.result{
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 150px;
+    background-color: white;
+}
+
+.user-side{
+    float: left;
+    position: relative;
+}
+
+.computer-side{
+    float: right;
+}
+
+.res{
+    display: inline-block;
+    padding: 2em;
+    margin: 2em;
+}
+
+.side {
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 4rem;
+    height: 200px;
+    width: 200px;
+}
+
+.user-choises{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.icon{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
